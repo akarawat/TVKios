@@ -1,0 +1,6 @@
+﻿1.เปลี่ยน Host Name, กำหนด Password และลง Remote
+2.ลง xdotools
+3.ลง kiosk 
+4.สั่ง Reboot ตามกำหนด 07, 09, 12, 17, 21, 01, 03
+5.แก้ไข URL ตามที่ต้องการ
+>>sudo nano /home/pi/.config/lxsession/LXDE-pi/autostart

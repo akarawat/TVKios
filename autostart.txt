@@ -1,0 +1,26 @@
+  GNU nano 2.7.4                                              File: /home/pi/.config/lxsession/LXDE-pi/autostart                                                        
+
+
+@lxpanel --profile LXDE-pi
+
+@pcmanfm --desktop --profile LXDE-pi
+
+@xscreensaver -no-splash
+
+@point-rpi
+
+
+@xscreensaver -no-splash
+
+@xset s off
+
+@xset -dpms
+
+@xset s noblank
+
+
+@chromium-browser --noerrordialogs --incognito --kiosk https://aya-svapp01/CellsDisplay/DisplayV21.aspx?CellID=031&DUR=H&MCType=scr
+
+@/home/pi/xauth_root.sh
+
+@/home/pi/autorefresh-chromium.sh

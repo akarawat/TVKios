@@ -1,0 +1,31 @@
+﻿-Enable VNC
+-Set 4K Screen
+#sudo nano /boot/config.txt
+Uncomment "disable_overscan=1"
+-------------------------
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt 3840 2160 15
+max_framebuffer_width=3840
+max_framebuffer_height=2160
+hdmi_pixel_freq_limit=400000000
+-----------------
+>>mode "3840x2160"
+--------------------------------------------------------------
+
+-Enable-Disable refresh in 
+#sudo nano /home/pi/autorefresh-chromium.sh
+
+-Set Open browser on load
+#sudo nano /home/pi/.config/lxsession/LXDE-pi/autostart
+http://aya-svapp03:8443/home/
+http://aya-svapp03:8444/home/
+http://aya-svapp03:8445/home/
+
+https://thay-s-web01/CellsDisplay/DisplayV21.aspx?CellID=031&DUR=H&MCType=scr
+https://thay-s-web01/CellsDisplay/DisplayV21.aspx?CellID=A&DUR=H&MCType=scr
+https://thay-s-web01/CellsDisplay/DisplayV21.aspx?CellID=031&DUR=H&MCType=pck
+https://thay-s-web01/CellsDisplay/DisplayV21.aspx?CellID=032&DUR=H&MCType=pck
+https://thay-s-web01/CellsDisplay/DisplayV21.aspx?CellID=A&DUR=H&MCType=pck
+
+

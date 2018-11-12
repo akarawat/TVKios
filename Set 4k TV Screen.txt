@@ -1,0 +1,19 @@
+sudo nano /boot/config.txt
+
+Uncomment "disable_overscan=1"
+-------------------------
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt 3840 2160 15
+max_framebuffer_width=3840
+max_framebuffer_height=2160
+hdmi_pixel_freq_limit=400000000
+-----------------
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt 1980 1080 15
+max_framebuffer_width=1980
+max_framebuffer_height=1080
+hdmi_pixel_freq_limit=400000000
+--------------------------------------
+mode "3840x2160"

@@ -1,0 +1,5 @@
+Run in Crontab
+
+crontab -e
+
+ใส่ Comment #*/10 * * * * python /home/path/to/script.py

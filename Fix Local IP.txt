@@ -1,0 +1,16 @@
+﻿การตั้งค่า Static IP
+แก้ไขไฟล์ interfaces โดยพิมพ์คำสั่ง
+sudo nano /etc/dhcpcd.conf
+
+แก้ไขไฟล์ดังภาพ dhcpcd.conf โดย
+เพิ่มคำสั่งต่อไปนี้ที่บรรทัดสุดท้ายของไฟล์เลยครับ
+
+interface eth0
+static ip_address=192.168.1.110/24 #IP ที่ต้องการ Fixed
+static routers= 192.168.1.1
+static domain_name_servers= 192.168.1.1
+
+#sudo nano /etc/hosts
+เพิ่ม Host ของ dns
+127.0.1.1		AY2TVxx
+172.17.30.56	loc.lxs.local
