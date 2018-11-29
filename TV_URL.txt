@@ -18,14 +18,34 @@ hdmi_pixel_freq_limit=400000000
 
 -Set Open browser on load
 #sudo nano /home/pi/.config/lxsession/LXDE-pi/autostart
+
+#Dash board : AY2TV1 IP:xxx.xxx.xxx.xxx
 http://aya-svapp03:8443/home/
+
+#Dash board : AY2TV1 IP:172.21.37.243
+#Dash board : AY2TV1 IP:172.21.37.244
 http://aya-svapp03:8444/home/
+
+#Dash board : AY3TV7 IP:172.21.37.207
 http://aya-svapp03:8445/home/
 
+#AY3TV 1; IP:172.21.37.201
 https://thay-s-web01/CellsDisplay/DisplayV21.aspx?CellID=031&DUR=H&MCType=scr
+
+#AY3TV 2; IP:172.21.37.202
+https://thay-s-web01/CellsDisplay/DisplayV21.aspx?CellID=031&DUR=H&MCType=scr
+
+#AY3TV 3; IP:172.21.37.67
+https://thay-s-web01/CellsDisplay/DisplayV21.aspx?CellID=032&DUR=H&MCType=scr
+
+#AY3TV 4; IP:172.21.37.204
+https://thay-s-web01/CellsDisplay/DisplayV21.aspx?CellID=032&DUR=H&MCType=scr
+
+#AY3TV 5; IP:172.21.37.205
 https://thay-s-web01/CellsDisplay/DisplayV21.aspx?CellID=A&DUR=H&MCType=scr
-https://thay-s-web01/CellsDisplay/DisplayV21.aspx?CellID=031&DUR=H&MCType=pck
-https://thay-s-web01/CellsDisplay/DisplayV21.aspx?CellID=032&DUR=H&MCType=pck
+
+#AY3TV 6; IP:172.21.37.63
 https://thay-s-web01/CellsDisplay/DisplayV21.aspx?CellID=A&DUR=H&MCType=pck
 
 ### Add commnet on github
+
