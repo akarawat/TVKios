@@ -19,7 +19,7 @@ hdmi_pixel_freq_limit=400000000
 -Set Open browser on load
 #sudo nano /home/pi/.config/lxsession/LXDE-pi/autostart
 
-#Dash board : AY2TV1 IP:xxx.xxx.xxx.xxx
+#Dash board : AY2TV1 IP:172.21.32.250
 http://aya-svapp03:8443/home/
 
 #Dash board : AY2TV1 IP:172.21.37.243
